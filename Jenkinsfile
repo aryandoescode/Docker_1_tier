@@ -24,7 +24,7 @@ pipeline {
         }
         stage('Docker Run') {
             steps {
-            sh 'docker run -d -p 6969:80 apa:1'
+            sh 'docker run -d -p 8083:80 apa:1'
             }
         }
     }
